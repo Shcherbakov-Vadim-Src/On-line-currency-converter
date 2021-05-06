@@ -19,7 +19,7 @@ let loadScreen = document.querySelector('.loadingScreen');   // табло до�
 loadScreen.style.display = 'none';          // спрячем с глаз строку загрузки
 
 let leftCurrency = 'RUB';   // валюта по умолчанию (по ТЗ)
-let rightCurrency = 'USD';
+let rightCurrency = 'USD'; 
 
 
 // -------------------------------------------------------------------------- // 
@@ -213,3 +213,4 @@ function reverseСonvertFunc() {     //  функция реверса конв�
         inputRight.value = +(inputLeft.value*arrayValueSecond[0][rightCurrency]).toFixed(4);
     }
 }
+// комментарий для git
