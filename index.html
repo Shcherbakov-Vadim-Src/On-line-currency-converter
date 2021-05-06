@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>On-line curruncy converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loadingBar">
+        <div class="loadingScreen">
+            <p class="loadRow">Loading</p>
+        </div> 
+    </div>    
+    <header>
+        <div class="header">
+            <img src="img/bank.svg">
+        </div>           
+        <p class="headerMenu">БАНК</p>
+        <p class="headerMenu">БИЗНЕС</p>
+        <p class="headerMenu">ИНВЕСТИЦИИ</p>
+        <p class="headerMenu">СТРАХОВАНИЕ</p>
+        <p class="headerMenu">МОБАЙЛ</p>
+        <p class="headerMenu">ПУТЕШЕСТВИЯ</p>
+        <p class="headerMenu">РАЗВЛЕЧЕНИЯ</p>
+        <p class="logIn">ВОЙТИ</p>
+    </header>
+    <main>
+        <h1 class="title">Конвертер валют онлайн</h1>
+        <div class="conteiner">
+            <div class="miniConteiner">
+                <p>У меня есть</p>
+                <div class="buttonMenu"> 
+                    <button class="leftCurrency colorButLeft buttonColor">RUB</button>
+                    <button class="leftCurrency colorButLeft">USD</button>
+                    <button class="leftCurrency colorButLeft">EUR</button>
+                    <button class="leftCurrency colorButLeft">GBP</button>
+                    <select class="selectLeft colorButLeft">                                               
+                    </select>
+                </div>
+                <div class="inputCont">
+                    <input type="number" class="input inputLeft" value="1">
+                    <p class='scoreBoard exchangeLeft'></p>                    
+                </div>
+            </div>
+            <button class="arrows"></button>            
+            <div class="miniConteiner">
+                <p>Хочу преобрести</p>
+                <div class="buttonMenu"> 
+                    <button class="rightCurrency colorButRight">RUB</button>
+                    <button class="rightCurrency colorButRight buttonColor">USD</button>
+                    <button class="rightCurrency colorButRight">EUR</button>
+                    <button class="rightCurrency colorButRight">GBP</button>
+                    <select class="selectRight colorButRight">                        
+                    </select>
+                </div>
+                <div class="inputCont">
+                    <input type="number" class="input inputRight">
+                    <p class='scoreBoard exchangeRight'></p>
+                </div>
+            </div>
+        </div>
+    </main>        
+    <script src="runner.js"></script>
+</body>
+</html>

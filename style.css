@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 56px 0 33px 0;    
+}
+
+.buttonMenu {
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+header {
+    background-color: #F5F5F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.header {
+    height: 24px;
+    margin: 0 64px 0 0;
+}
+
+.headerMenu {
+    margin: 0 20px 0 0;
+    font-size: 11px;
+    color: #959BA4;
+}
+
+.headerMenu:hover {
+    color: #000000;
+}
+
+.conteiner {
+    display: flex;    
+}
+
+.miniConteiner {
+    display: flex;
+    flex-direction: column;
+    width: 259px;
+}
+
+.logIn {
+    margin: 0 0 0 100px;
+    background-color: white;
+    font-size: 11px;
+    height: 33px;
+    width: 58px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 0 0 0; 
+    border-radius: 4px;
+}
+
+.logIn:hover {
+    background-color: rgb(199, 192, 192);
+    color: rgb(5, 5, 5);
+}
+
+.selectLeft {
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #E5E5E5;
+    color: #C6C6C6;
+    outline: 0;
+}
+
+.colorButRight:first-child {
+    border-radius: 3px 0 0 3px;
+}
+
+.selectRight {
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #E5E5E5;
+    color: #C6C6C6;
+    outline: 0;
+}
+
+.colorButLeft:first-child {
+    border-radius: 3px 0 0 3px;
+}
+
+.leftCurrency {
+    font-size: 12px;
+    color: #C6C6C6;
+    background-color: white;
+    font-weight: 400;
+    border: 1px solid #E5E5E5;
+    padding: 5px 12px;
+    outline: 0;
+}
+
+.rightCurrency {
+    font-size: 12px;
+    color: #C6C6C6;
+    background-color: white;
+    font-weight: 400;
+    border: 1px solid #E5E5E5;
+    padding: 5px 12px;
+    outline: 0;    
+}
+
+.arrows {
+    height:41px;
+    width: 46px;
+    background: url(/img/arrows.svg) no-repeat;
+    border: none;
+    margin: 130px 42px 0 42px;
+    outline: 0;
+}
+
+.inputCont {
+    height: 102px;
+    border:1px solid #E5E5E5;
+    border-radius: 3px;
+}
+
+.input {
+    font-size: 36px;
+    width: 80%;
+    outline: 0;
+    outline-offset: 0;
+    box-sizing: border-box;
+    border: none;
+    margin: 10px 0 0 10px;    
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.scoreBoard {
+    color: #C6C6C6;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 20px 0 0 10px;
+
+}
+
+.buttonColor {
+    background-color: #833AE0;
+    color: white;
+}
+
+.loadingBar {
+    position: relative;
+}
+
+.loadingScreen {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.44);
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadRow {
+    font-size: 24px;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 3px;
+    height: 54px;
+    width: 129px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+
