@@ -119,7 +119,7 @@ header {
 .arrows {
     height:41px;
     width: 46px;
-    background: url(/img/arrows.svg) no-repeat;
+    background: url(./img/arrows.svg) no-repeat;
     border: none;
     margin: 130px 42px 0 42px;
     outline: 0;
